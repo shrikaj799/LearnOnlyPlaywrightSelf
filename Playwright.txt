@@ -1,0 +1,102 @@
+May-
+june-
+july-
+
+2026 May-june-july---90 days roadmap IMP
+
+1st day-29 april 2026
+
+
+Day 2 Task - 4th May Task 1 - Install Visual Studio Code / Antigravity : Done Task 2 - Install the Node JS (verify) : Done Task 3 - Create the github.com/signup : Done
+
+
+notes-https://app.eraser.io/workspace/aGf8WeO8HWibzTxOSvQn
+SDET clun-https://www.sdetclub.com/c/playwright-2x
+
+recordings--https://courses.thetestingacademy.com/courses/playwright-automation-mastery-2x/contents/6a34cf7fd061c
+
+
+
+Mohammed Azharuddin
+9h
+Name: Mohammed Azharuddin
+Linkedin : https://www.linkedin.com/in/mohammad-azharuddin-6642b315a/
+What you do: Senior Software Testing Engineer
+Why you are here? : To upgrade myself in automation career by Learning Playwright with AI tools.
+
+Task 1 - Install Visual Studio Code - Done
+Task 2 - Intall the Node JS (verify) - Done
+Task 3 - Create the github.com/signup - Done
+Task 4 - OpenCode install in the Visual Studio Code - Done
+Task 5 - Optional - Buy OpenCode Go Subs. - Done
+
+
+OpenCode--sk-vFyt1bKq2xrdOAFqNY77l0uFDFzjZ5ufsTrFaI1sTwRxZQIv4hDoiTgLJkg5LZc0
+
+off sugeestion in VS-editor.suggest:showwords--use setting-copilot * false
+
+GIT change folder---->cd /d D:\Playwright learning\Playwright-practice--VIMP---navigate to folder & do the changes 
+https://github.com/shrikaj799/LearnPlaywrightBatch2x.git
+
+https://github.com/PramodDutta/LearnPlaywrightBatch2x.git
+https://github.com/PramodDutta/LearnPlaywrightBatch2x.git
+
+---------------How to take/ pull specific files from ithers repo------------------------------------------------------------------------------------------------------------
+
+git remote -v----------how to check which is our remote repo
+
+
+
+git remote set-url origin https://github.com/shrikaj799/LearnPlaywrightBatch2x.git
+
+git remote set-url origin https://github.com/PramodDutta/LearnPlaywrightBatch2x.git  (JS+TS)
+
+git remote set-url origin https://github.com/PramodDutta/LearningPlaywrightFundamentals2x  (PW)
+
+git remote set-url origin https://github.com/shrikaj799/LearnOnlyPlaywrightPramod.git
+
+----------------------------------------------------------------1st time VIMP-----------------------------------------------------------------------------------------------
+git init
+git remote add origin https://github.com/shrikaj799/LearnOnlyPlaywrightPramod.git
+git branch -M main
+---------------------------------------------------------------------------------------------------------------------------------------------------------------- ------ 
+
+1) git fetch origin 
+
+2)git checkout origin/main -- chapter_32_Playwright_Fundamentals
+
+
+D:\Playwright learning\LearnPlaywrightBatch2x--This is all about JS+TS (Pramod sir )
+D:\Playwright learning\Playwright-practice--this is all about-JS+TS  (My practice)
+
+D:\Playwright learning\LearnOnlyPlaywrightPramod
+
+D:\Playwright learning\LearnOnlyPlaywrightSelf
+
+
+  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Promt-Please create cheat sheet for functions which are available for strings with simple exaple
+
+1. Cutting and Splitting TextMethodWhat it doesSimple Examplesplit(separator)Cuts a string into a list (array)."A-B-C".split("-")👉 ["A", "B", "C"]slice(start, end)Extracts a section of a string."JavaScript".slice(0, 4)👉 "Java"substring(start, end)Similar to slice, extracts characters."Hello".substring(1, 4)👉 "ell"2. Changing the CasingMethodWhat it doesSimple ExampletoUpperCase()Makes all letters CAPITAL."hello".toUpperCase()👉 "HELLO"toLowerCase()Makes all letters lowercase."WORLD".toLowerCase()👉 "world"3. Finding and Checking TextMethodWhat it doesSimple Exampleincludes(text)Checks if a word/letter is inside."Coding is fun".includes("fun")👉 trueindexOf(text)Finds the position of a character."Apple".indexOf("p")👉 1 (starts at 0)startsWith(text)Checks if it begins with specific text."Batman".startsWith("Bat")👉 trueendsWith(text)Checks if it ends with specific text."Batman".endsWith("man")👉 true4. Cleaning and ModifyingMethodWhat it doesSimple Exampletrim()Removes extra spaces from both ends."  hi  ".trim()👉 "hi"replace(old, new)Swaps the first match with new text."I like cats".replace("cats", "dogs")👉 "I like dogs"replaceAll(old, new)Swaps every match with new text."cat cat".replaceAll("cat", "dog")👉 "dog dog"repeat(count)Repeats the string."Ha".repeat(3)👉 "HaHaHa"5. Getting Single CharactersMethodWhat it doesSimple Example[index] (Bracket)Gets character at index (returns undefined if empty)."Hey"[0]👉 "H"charAt(index)Gets character at index (returns "" if empty)."Hey".charAt(0)👉 "H"💡 Two Golden Rules to Always Remember:Index starts at 0: The first letter of any string is always at position 0, the second is 1, and so on.Strings are Immutable: None of these methods actually change your original variable. They always return a brand new string or array. You must save the result if you want to use it!JavaScriptlet name = "  sam  ";
+name.trim();          // ❌ Doesn't change 'name'
+name = name.trim();   //  Correct! 'name' is now "sam"
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+npx playwright codegen https://app.thetestingacademy.com/playwright/ttacart/
+
+cd "D:\Playwright learning\Playwright-practice\Practice_PW\Playwrightbasics"  ------VIMP ----navigate to folder 
+npx playwright test cart.spec.ts --headed
+npx playwright test login.spec.ts --headed
+
+ npx playwright show-report
+ 
+ 
+ 
+sat-sun-PW CLI & MCP --IMP 
+
+npm init playwright@latest
